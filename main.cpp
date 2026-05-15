@@ -263,6 +263,11 @@ void explainSet(){
 
     auto it = s.find(3);
     if(it!= s.end()){
+          }
+void multiSet(){
+// there can be duplicate values in the set
+         set<int> s1 = {1,2,3};
+    set<int> s2 = {3,4,5};
 
 
         
